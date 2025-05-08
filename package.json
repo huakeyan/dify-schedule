@@ -9,7 +9,14 @@
   },
   "author": "Leo_chen",
   "license": "ISC",
-  "keywords": ["Dify", "Dify Schedule", "Schedule", "Dify Task", "Task", "Auto Schedule"],
+  "keywords": [
+    "Dify",
+    "Dify Schedule",
+    "Schedule",
+    "Dify Task",
+    "Task",
+    "Auto Schedule"
+  ],
   "dependencies": {
     "axios": "^1.7.9",
     "nodemailer": "^6.9.16"

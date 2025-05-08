@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "45 08 * * *"
   workflow_dispatch:
+    title:
+    recipients:
+    project_id_cd:
+    project_id_sh:
 
 env:
   DIFY_TOKENS: ${{ secrets.DIFY_TOKENS }}

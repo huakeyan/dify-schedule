@@ -2,9 +2,9 @@ const env = process.env || {};
 
 export default {
     /** Dify API 地址 默认 https://api.dify.ai/v1 */
-  DIFY_BASE_URL: env.DIFY_BASE_URL || 'https://api.dify.ai/v1',  
+  DIFY_BASE_URL: env.DIFY_BASE_URL || 'http://116.228.152.154/v1',  
   /* Dify Token, 支持配置多个工作流token，每个token之间用;分割即可 */
-  DIFY_TOKENS: env.DIFY_TOKENS,
+  DIFY_TOKENS: env.DIFY_TOKENS || 'dataset-qPmmf66d4rdc1TRPdfILIWrl',
   /* Dify Inputs, inputs 参数包含了多组键值对（Key/Value pairs），每组的键对应一个特定变量，每组的值则是该变量的具体值，请确保是json格式，例如: { name: '', topic: '' } */
   DIFY_INPUTS: env.DIFY_INPUTS,
   /**

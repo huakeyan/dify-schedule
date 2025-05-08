@@ -3,6 +3,7 @@ name: Main
 on:
   schedule:
     - cron: "20 08 * * *" # 北京时间下午14:51
+  workflow_dispatch:
 
 env:
   DIFY_TOKENS: ${{ secrets.DIFY_TOKENS }}

@@ -1,5 +1,5 @@
 import axios from "axios";
-export const BASE_URL = "http://116.228.152.154/v1";
+export const BASE_URL = "http://116.228.152.154:29870/v1";
 
 export const routes = {
   //  app's

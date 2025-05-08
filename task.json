@@ -1,0 +1,16 @@
+[
+    {
+        "name": "定时报送数据",
+        "workflow_id": "a016d47e-b904-4688-8faf-2d7e55c903df",
+        "api_key": "dataset-qPmmf66d4rdc1TRPdfILIWrl",
+        "cron": "0 8 * * *",
+        "timezone": "Asia/Shanghai",
+        "parameters":
+        {
+            "title": "定时报送数据测试",
+            "recipients": "yanhk@gisinfo.com",
+            "project_id_cd": "681af072ced20ce4e3ede54d",
+            "project_id_sh": "680d8c6a2f67d6e636cc4cc0"
+        }
+    }
+]

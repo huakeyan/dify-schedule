@@ -1,8 +1,8 @@
-name: Auto
+name: Main
 
 on:
   schedule:
-    - cron: "18 08 * * *" # 北京时间下午14:51
+    - cron: "20 08 * * *" # 北京时间下午14:51
 
 env:
   DIFY_TOKENS: ${{ secrets.DIFY_TOKENS }}
